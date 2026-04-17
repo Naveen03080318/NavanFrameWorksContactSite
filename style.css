@@ -33,7 +33,7 @@ nav .nav-item .nav-link{
 }
 
 .logo{
-    height: 500px;
+    height: 100%;
 }
 
 .About-us{
@@ -125,7 +125,7 @@ nav .nav-item .nav-link{
 }
 
 footer{
-    height: 36vh;
+    min-height: 36vh;
     border-top: 3px solid white;
     padding: 10px 75px;
 }
