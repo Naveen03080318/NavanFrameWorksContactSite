@@ -28,6 +28,7 @@ nav .nav-item .nav-link{
 .home-logo{
     height: 110vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -65,6 +66,7 @@ nav .nav-item .nav-link{
 .about-container{
     height: 60vh;
     width: 60vw;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
