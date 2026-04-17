@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* avoid horiz scroll */
+}
+
+body{
+    background-color: #041325;
+    color: white;
+     overflow-x: hidden; /* avoid horiz scroll */
+}
+
+.navbar{
+  background-color: #041325;
+  font-weight: bold;
+  border-bottom: 2px solid white;
+  margin-bottom: 10%;
+}
+
+nav a{
+    color: yellow;
+}
+
+nav .nav-item .nav-link{
+    color: whitesmoke;
+}
+
+.home-logo{
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 500px;
+}
+
+.About-us{
+    background-image: url("./img/img1\ \(1\).jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.About-us::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.about-container{
+    height: 60vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.13);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.7px);
+    -webkit-backdrop-filter: blur(2.7px);
+    border: 1px solid rgba(0, 0, 0, 0.23);
+}
+
+.about-container{
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.contact{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-block{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.contact-block img{
+    height: 200px;
+}
+
+.contact-block button{
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 5px 10px;
+    background-color: #041325;
+    color: white;
+    position: absolute;
+    bottom: -8%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-block button:hover{
+     transform: scale(1.2);
+}
+
+footer{
+    height: 36vh;
+    border-top: 3px solid white;
+    padding: 10px 75px;
+}
